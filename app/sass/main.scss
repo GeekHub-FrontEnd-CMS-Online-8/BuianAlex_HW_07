@@ -1,0 +1,65 @@
+
+@import "app/sass/fonts";
+@import "app/sass/header";
+@import "app/sass/welcome";
+@import "app/sass/welcome_2";
+@import "app/sass/features";
+@import "app/sass/social";
+@import "app/sass/socialBtn";
+@import "app/sass/testimonials";
+@import "app/sass/pricing";
+@import "app/sass/subscribe";
+@import "app/sass/links";
+@import "app/sass/footer";
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  max-width: 1380px;
+  margin: 0 auto;
+}
+
+li{
+    list-style: none;}
+
+.btn-custom{
+    border-radius: 24px;
+    background-color: #8d81ac;
+    font-size: 21px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 32px;
+    overflow: hidden;
+}
+.btn-custom:hover{
+  background-color: #858585;
+}
+.navbar-brand{
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 43px;
+    text-transform: uppercase;
+    span{
+      color: #8d81ac;
+    }
+    img{
+      margin-right: 1rem;
+      width: 43px;
+      height: 41px;
+    }
+    &:hover{
+      color: #333333;
+    }
+}
+h2{
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+  text-align: center;
+  @media only screen and (max-width: 479px) {
+      font-size: 2rem;
+    }
+
+}

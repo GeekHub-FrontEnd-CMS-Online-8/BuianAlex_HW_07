@@ -1,0 +1,102 @@
+.pricing{
+  background-image: url('./../img/Layer_2.png');
+  background-color: #4b3b4d;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding-bottom: 2rem;
+  h2{
+    margin: 5rem auto 5rem;  
+    color: #ffffff;
+  }
+  hr{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgba(199, 199, 199,0.2);
+  }
+}
+.price-list{
+  text-align: center;
+  padding: 0;
+  hr{
+    width: 60px;
+    height: 5px;
+    background-color: #8d81ac;
+    opacity: 1;
+
+  }
+  li{
+    margin-bottom: 2rem;
+    width: 65%;
+    min-width: 256px;
+    cursor: pointer;
+    &:hover{
+      transform: scale(1.1);
+      .header-price{
+        background-color: rgba(0, 0, 0, 0.06);
+      }
+      .body-price{
+        background-color: rgba(0, 0, 0, 0.11);
+      }     
+    }
+  }  
+}
+
+.header-price{
+  width: 100%;
+  height: 97px;
+  background-color: rgba(255, 255, 255, 0.06);
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 97px;
+  text-transform: uppercase; 
+}
+.body-price{
+  background-color: rgba(255, 255, 255, 0.11);
+  padding: 1rem 0 2.5rem;
+
+}
+.cost{
+  color: #ffffff;
+  font-size: 3.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+.subscription-time{
+  color: rgba(255, 255, 255, 0.3);
+  font-size: .9rem;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase; 
+  margin-bottom: 2rem;
+}
+.license-type{
+  width: 70%;
+  height: 70px;
+  overflow: hidden;
+  margin: 1rem auto 1rem;
+  line-height: 2rem;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
+
+}
+.btn-purchase{
+  width: 160px;
+  height: 42px;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  border-radius: 24px;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.btn-purchase:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #ffffff;
+}
